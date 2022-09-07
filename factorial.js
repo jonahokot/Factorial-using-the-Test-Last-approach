@@ -1,9 +1,8 @@
 function factorialize(a) {
-  if (a < 2) return 1;
-  for (let i = a - 1; i >= 2; i--) {
-    a *= i;
-  }
-  return a;
+  if (a < 0) return -1;
+  if (a === 0) return 1;
+
+  return a * factorialize(a - 1);
 }
 
 module.exports = factorialize;
