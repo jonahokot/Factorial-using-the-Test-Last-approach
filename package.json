@@ -10,7 +10,7 @@
     "test": "mocha || true"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonah Okot",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.6",

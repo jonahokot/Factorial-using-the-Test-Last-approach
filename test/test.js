@@ -1,6 +1,6 @@
 const { assert } = require('chai');
 const { it } = require('mocha');
-const factorialize = require('../factorial').default;
+const factorialize = require('../factorial');
 
 // eslint-disable-next-line no-undef
 describe('factorial test', () => {

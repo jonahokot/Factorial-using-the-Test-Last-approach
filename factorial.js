@@ -1,9 +1,11 @@
-function factorialize(num) {
-  if (num === 0 || num === 1) return 1;
-  for (let i = num - 1; i >= 1; i--) {
-    num *= i;
+function factorialize(a) {
+  if (a < 2) return 1;
+  for (let i = a - 1; i >= 2; i--) {
+    a *= i;
   }
-  return num;
+  return a;
 }
 
-export default factorialize;
+module.exports = factorialize;
+
+// pair:Francis Xavier & Jonah Okot
